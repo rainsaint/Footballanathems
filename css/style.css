@@ -1,0 +1,56 @@
+font-family: 'Koulen', cursive;
+font-family: 'Open Sans', sans-serif;
+
+
+.bd-example{ margin: 60px;}
+
+.carousel-inner {padding: 80px 80px;}
+
+/*--------------
+cards squadre
+-----------*/
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    padding-top: 30px;
+	}
+
+.cards * {
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    font-family: 'Koulen', cursive;}
+
+.card__image {
+    width: 100%;
+    }
+.para{background: grey; margin-top: 15px; margin-bottom: 15px;}
+.btn {margin: 25px; }
+
+/*--------------
+musica
+----------*/
+.audio{width: 250px;}
+
+/*-----------*/
+
+.background {background: url(../img/sfondocompleto.JPG) ;}
+iframe{margin-top: 15px; margin-bottom: 15px;}
+
+footer{background: grey;}
+
+/*-----------------
+    documentazione
+    -------------*/
+h1 {text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    }
+.docu{padding-left: 100px; font-family: 'Open Sans'}
+.str{padding-left: 100px}
+
+nav{font-family: 'Koulen', cursive;}
